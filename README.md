@@ -1,21 +1,20 @@
-# group_5_stairs_project_vmi
-Stair Step Detection and Counting
-📌 Project Overview
+# Stair Step Detection and Counting
+#📌 Project Overview
 This project focuses on detecting and counting steps in images of stairs using machine learning techniques. The goal is to develop a model that accurately predicts the number of steps in an image, which can be useful for applications in navigation, accessibility, and robotics.
 
 We implemented four different models and compared their performance using Mean Absolute Error (MAE) as the primary evaluation metric. While Random Forest performed well on the training and test sets, it showed high MAE on the validation set, indicating potential overfitting.
 
-📂 Dataset
+#📂 Dataset
 The dataset consists of images of stairs with labeled step counts. Each image undergoes preprocessing before being fed into the model.
 
-🔹 Data Processing Steps:
+#🔹 Data Processing Steps:
 Image resizing and normalization
 
 Feature extraction (e.g., edge detection, contour analysis)
 
 Splitting into train, test, and validation sets
 
-🛠️ Models Used
+#🛠️ Models Used
 We tested four different machine learning models:
 
 Random Forest 🌳 (Best performance on training/test but high validation error)
@@ -28,7 +27,7 @@ K-Nearest Neighbors (KNN) 🔍
 
 The performance was evaluated using MAE, which measures how far the predicted step count is from the actual count.
 
-📊 Results & Evaluation
+#📊 Results & Evaluation
 Train & Test Performance: Random Forest had the lowest MAE.
 
 Validation Performance: Higher MAE, indicating possible overfitting.
@@ -39,7 +38,7 @@ MAE was chosen over accuracy because step counting is a regression problem, not 
 
 Small step count errors are tolerable, making MAE a better metric than MSE (which penalizes large errors too harshly).
 
-🔧 How to Run the Project
+#🔧 How to Run the Project
 1️⃣ Install Dependencies
 bash
 Copier
@@ -55,11 +54,11 @@ bash
 Copier
 Modifier
 python predict.py --image path/to/image.jpg
-🔍 Future Improvements
+#🔍 Future Improvements
 ✔ Implement cross-validation to better estimate generalization performance.
 ✔ Use feature engineering techniques to improve robustness.
 ✔ Explore ensemble models to reduce overfitting.
 
-📜 License
+#📜 License
 This project is open-source and available under the MIT License.
 
