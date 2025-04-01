@@ -2,7 +2,7 @@
 # Project Overview
 This project focuses on detecting and counting steps in images of stairs using machine learning techniques. The goal is to develop a model that accurately predicts the number of steps in an image, which can be useful for applications in navigation, accessibility, and robotics.
 
-We implemented four different models and compared their performance using Mean Absolute Error (MAE) as the primary evaluation metric. While ElasticNet performed well on the training and test sets, it showed high MAE on the validation set, indicating potential overfitting.
+We implemented four different models and compared their performance using Mean Absolute Error (MAE) as the primary evaluation metric.ElasticNet performed well on the training and test sets.
 
 # Dataset
 The dataset consists of images of stairs with labeled step counts. Each image undergoes preprocessing before being fed into the model.
