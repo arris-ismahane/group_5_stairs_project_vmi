@@ -31,7 +31,7 @@ The performance was evaluated using MAE, which measures how far the predicted st
 # Results & Evaluation
 Train & Test Performance: ElasticNet had the lowest MAE.
 
-Validation Performance: Lowest MAE among all models
+Validation Performance: ElasticNet had Lowest MAE among all models
 
 Key Findings:
 
