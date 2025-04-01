@@ -56,8 +56,11 @@ Copier
 Modifier
 python predict.py --image path/to/image.jpg
 # Future Improvements
+
 ✔ Implement cross-validation to better estimate generalization performance.
+
 ✔ Use feature engineering techniques to improve robustness.
+
 ✔ Explore ensemble models to reduce overfitting.
 
 # License
