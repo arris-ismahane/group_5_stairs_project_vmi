@@ -2,7 +2,7 @@
 # Project Overview
 This project focuses on detecting and counting steps in images of stairs using machine learning techniques. The goal is to develop a model that accurately predicts the number of steps in an image, which can be useful for applications in navigation, accessibility, and robotics.
 
-We implemented four different models and compared their performance using Mean Absolute Error (MAE) as the primary evaluation metric. While Random Forest performed well on the training and test sets, it showed high MAE on the validation set, indicating potential overfitting.
+We implemented four different models and compared their performance using Mean Absolute Error (MAE) as the primary evaluation metric. While ElasticNet performed well on the training and test sets, it showed high MAE on the validation set, indicating potential overfitting.
 
 # Dataset
 The dataset consists of images of stairs with labeled step counts. Each image undergoes preprocessing before being fed into the model.
@@ -17,20 +17,21 @@ Splitting into train, test, and validation sets
 # Models Used
 We tested four different machine learning models:
 
+ElasticNet 🔍 ((Best performance on training/Validation and test set )
+
 Random Forest 🌳 (Best performance on training/test but high validation error)
 
-Linear Regression 📈
+Gradient Boosting 📈
 
 Support Vector Regression (SVR) 🤖
 
-K-Nearest Neighbors (KNN) 🔍
 
 The performance was evaluated using MAE, which measures how far the predicted step count is from the actual count.
 
 # Results & Evaluation
-Train & Test Performance: Random Forest had the lowest MAE.
+Train & Test Performance: ElasticNet had the lowest MAE.
 
-Validation Performance: Higher MAE, indicating possible overfitting.
+Validation Performance: Lowest MAE among all models
 
 Key Findings:
 
