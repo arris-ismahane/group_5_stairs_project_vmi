@@ -53,6 +53,5 @@ The visualisation code : Run the Notebook called : "feature_extraction_visualiza
 
 ✔ Explore ensemble models to reduce overfitting.
 
-# License
-This project is open-source and available under the MIT License.
+
 
