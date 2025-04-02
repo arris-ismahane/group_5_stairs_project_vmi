@@ -63,7 +63,7 @@ The visualisation code : Run the Notebook called : "feature_extraction_visualiza
 
 # Ownership :
 
-This project was done by Paris City University (UPC) students in an academical setting, for learning purposes.
+This project was done by Paris City University (UPC) students in an academic setting, for learning purposes.
 
 Supervised and guided by Professor Camille Kurtz.
 
