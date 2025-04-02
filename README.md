@@ -61,5 +61,8 @@ The visualisation code : Run the Notebook called : "feature_extraction_visualiza
 
 ✔ Explore ensemble models to reduce overfitting.
 
+# Ownership :
+
+This project was done by UPC students in an academical setting, for learning purposes.
 
 
