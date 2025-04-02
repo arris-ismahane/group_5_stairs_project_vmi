@@ -40,7 +40,9 @@ MAE was chosen over accuracy because step counting is a regression problem, not 
 Small step count errors are tolerable, making MAE a better metric than MSE (which penalizes large errors too harshly).
 
 # How to Run the Project
+
 The main code : Run the Notebook called : "groupe5_stairs_code.ipynb"
+
 The visualisation code : Run the Notebook called : "feature_extraction_visualization.ipynb"
 
 # Future Improvements
