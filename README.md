@@ -7,6 +7,14 @@ We implemented four different models and compared their performance using Mean A
 # Dataset
 The dataset consists of images of stairs with labeled step counts. Each image undergoes preprocessing before being fed into the model.
 
+To download the dataset, Run the following command : 
+
+```python
+!gdown --id 1pZcR6YFhQyhvNcOCPLiB5Ei17p4fXmMh --output groupe5_data.zip
+```
+
+The metadata is summerized in a csv file called : "annotations.csv".
+
 # Data Processing Steps:
 Image resizing and normalization
 
