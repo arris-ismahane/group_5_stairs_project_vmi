@@ -40,21 +40,8 @@ MAE was chosen over accuracy because step counting is a regression problem, not 
 Small step count errors are tolerable, making MAE a better metric than MSE (which penalizes large errors too harshly).
 
 # How to Run the Project
-1️⃣ Install Dependencies
-bash
-Copier
-Modifier
-pip install -r requirements.txt
-2️⃣ Run the Model
-bash
-Copier
-Modifier
-python train_model.py
-3️⃣ Test on New Images
-bash
-Copier
-Modifier
-python predict.py --image path/to/image.jpg
+Run the Notebook called : "groupe5_stairs_code.ipynb"
+
 # Future Improvements
 
 ✔ Implement cross-validation to better estimate generalization performance.
